@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-crud-test",
+  "version": "1.0.0",
+  "description": "Hayat Anjing Nabule Setan",
+  "main": "index.js",
+  "author": "Hayat Anjing Asu",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
