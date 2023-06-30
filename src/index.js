@@ -1,8 +1,11 @@
 const express = require('express');
 
-const usersRoute = require('./routes/users.js');
+const usersRoute = require('./routes/users');
+const middlewareLogRequest = require('./middleware/logs'); 
 
 const app = express();
+
+app.use(middlewareLogRequest);
 
 app.use('/users', usersRoute); 
 
