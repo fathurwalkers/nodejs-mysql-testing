@@ -10,7 +10,7 @@ app.use(middlewareLogRequest);
 app.use('/users', usersRoute); 
 
 app.get("/hello", (req, res, next) => {
-    res.send('GET Hellooso');
+    res.send('GET Helloo');
 });
 
 app.post("/hello", (req, res, next) => {
